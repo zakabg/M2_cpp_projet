@@ -1,0 +1,8 @@
+INPUT E1 E2 E3 E4 E5 E6 ;
+OUTPUT S1 S2 S3 ;
+and P1 a E1 E2 ;
+or P2 b E3 E4 ;
+and P3 c b E5 ;
+or P4 S1 a c ;
+not P5 S2 c ;
+or P6 S3 c E6 ;

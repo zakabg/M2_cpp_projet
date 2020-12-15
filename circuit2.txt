@@ -1,0 +1,4 @@
+INPUT E1 E2 E3 ;
+OUTPUT S1 ;
+and P1 a E1 E2 ;
+or P2 S1 a E3 ;
